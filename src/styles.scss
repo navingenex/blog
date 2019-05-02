@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@font-face{
+    font-family: 'Lora-Regular';
+    src: url('./assets/fonts/Lora-Regular.ttf') format('truetype');
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #1C1C1C;
+    font-family: 'Lora-Regular';
+}
+p,span,li,ul{
+    color: #A4A4A5;
+    font-family: 'Lora-Regular';
+}
+a{
+    color: #DAC0A9;
+    font-family: 'Lora-Regular';
+}
+div,small,ul,li{
+    font-family: 'Lora-Regular';
+}
+.btn,.dropdown-menu,.card,.card-header,.form-control,.modal,.popover,
+.badge,.collapse,.list-group,.list-group-item,.container,.container-fluid{
+    border-radius: 0px;
+}
+
